@@ -1,14 +1,14 @@
-﻿![enter image description here](https://camo.githubusercontent.com/8f9bf2581e1036b7f6b66e6d804c08d06226b7b6/687474703a2f2f676e6465632e61632e696e2f7e69637261656374323031362f696d616765732f6c6f676f2e6a7067)
+﻿![GNDEC LOGO](https://camo.githubusercontent.com/8f9bf2581e1036b7f6b66e6d804c08d06226b7b6/687474703a2f2f676e6465632e61632e696e2f7e69637261656374323031362f696d616765732f6c6f676f2e6a7067)
 
-SUBMITTED BY: **JANAV MAKKAR **
+## SUBMITTED BY: JANAV MAKKAR 
 
-ROLL NUMBER: **19210146 **
+## ROLL NUMBER: 19210146 
 
-BRANCH: **IT(A2) **
+## BRANCH: IT(A2) 
 
-SUBMITTED TO:**Er. RANJODH KAUR **
+## SUBMITTED TO: Er. RANJODH KAUR 
 
- **1. Fizz buzz game **
+### 1. FizzBuzz game 
 
   
 ````
@@ -40,7 +40,7 @@ return 0;
 
 
 
-**2. AVERAGE OF 5 NUMBER**
+## 2. Program to Find Average of 5 Number
 
    ````
    #include<stdio.h>
@@ -76,7 +76,7 @@ printf("your average is %f \n",g);
 }
 
 ````
-**3.Even Odd Program**
+## 3. Program to Check whether a Number is Even or Odd 
 ````
 #include<stdio.h>
 
@@ -101,7 +101,7 @@ else
 }
 ````
 
-**4.Triangular star table**
+## 4. Program to Print a Triangular Star Table
 
    ````#include<stdio.h>
 
@@ -149,7 +149,7 @@ return 0;
 
 }
 ````
-5.**Convert Celsius to Fahrenheit**
+## 5.Temperature Convertor Celsius to Fahrenheit and Vice-Versa
 
   ````#include<stdio.h>
 
@@ -198,7 +198,7 @@ return 0;
 }
 ````
 
-**6.Display the table**
+## 6. Program to Display the table of an Input Number 
 
    ````#include<stdio.h>
 
@@ -223,7 +223,7 @@ printf("%dx%d=%d \n",a,i,a*i);
 }
 ````
 
-**7.Find the sum of digits of a number**
+## 7.Find the Sum of Digits of a Number
 
    ````#include<stdio.h>
 
@@ -262,7 +262,7 @@ c=c/10;
 return sum;}
 ````
 
-**8. Comparison of two numbers**
+## 8. Program to Compare two numbers
 
   ````
   #include<stdio.h
@@ -297,7 +297,7 @@ else { printf("The greater number is: %d\n", j); }
 }
 ````
 
-**9.To print College address**
+## 9.To print College address
 ````
  
 #include<stdio.h>
@@ -311,7 +311,7 @@ return 0;
 }
 ````
 
-**10. Factorial with Recursion**
+## 10. Program to Find the Factorial of a Number with Recursion
 ````
 #include<stdio.h>
 long int multiplyNumbers(int n);
@@ -332,7 +332,7 @@ long int multiplyNumbers(int n)
 }
 ````
 
-**11. Program to check a no. is PRIME or not.**
+## 11. Program to check if a number is PRIME or NOT
 ````
 #include <stdio.h>
 int main()
@@ -361,7 +361,7 @@ int main()
 }
 ````
 
-**12. Program for MATRIX multiplication.**
+## 12. Program for MATRIX multiplication
 ````
 #include<stdio.h>
 int main(){
@@ -411,7 +411,7 @@ return 0;
 }
 ````
 
-**13. CALCULATOR**
+## 13. CALCULATOR
 ````
 #include<stdio.h>
 int main()
@@ -441,7 +441,7 @@ scanf("%d\n %d",&a,&b);
 }
 }
 ````
-**14. Program to find the total EXPERIENCE of employees**
+## 14. Program to Find the Total Experience of Employees
 ````
 #include<stdio.h>
 int main()
@@ -459,7 +459,7 @@ int a,b;
 }
 ````
 
-**15. To find area and volume of RECTANGLE**
+## 15. To find Area and Volume of Rectangle/Box
 ````
 #include<stdio.h>
 int main()
@@ -477,7 +477,7 @@ int main()
  }
  ````
 
-   **16.Find Even number**
+   ## 16. Program to Find if a Number is an Even number or not
    ````
    #include<stdio.h>
 int main()
@@ -497,7 +497,7 @@ for(i=0;i<10;i++)
 }
 }
 ````
-**17 Find the GREATEST number**
+## 17 Program to Find the Greatest Number of All
 
 
 ````
@@ -517,7 +517,7 @@ int arr[10];
 }
 ````
 
-**18. ADDITION OF TWO NUMBERS **
+## 18. Addition Of Two Numbers
 ````
 #include<stdio.h>
 int main()
@@ -532,7 +532,7 @@ int addTwo=a+b;
 }
 ````
 
-**19.Find area,perimeter and volume of SQUARE**
+## 19. Program to Find Area, Perimeter and Volume of a Square
    ````
     #include<stdio.h>
 void square();
@@ -553,7 +553,7 @@ void square()
 }
 
 ````
-**20.To display only even tables from range**
+## 20. Program to Display a Table at Even Positions within a Range of a Given Number
 
 ````
 #include<stdio.h>
