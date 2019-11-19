@@ -1,13 +1,17 @@
 ﻿![GNDEC LOGO](/gndec_image.png)
+ 
+ # PROGRAMMING FOR PROBLEM SOLVING ESC -18105
+ _____________________________________________
 
-## SUBMITTED BY: JANAV MAKKAR 
 
-## ROLL NUMBER: 19210146 
+## Prepared,Coded **and** Submitted with Love and Bugs(was) by: JANAV MAKKAR 
 
-## BRANCH: IT(A2) 
+## Roll Number: 19210146 
 
-## SUBMITTED TO: Er. RANJODH KAUR 
+## Branch: IT(A2) 
 
+## Submitted to: Er. RANJODH KAUR 
+___________________________________
 
 
 
