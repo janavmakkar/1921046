@@ -1,7 +1,8 @@
 ﻿![GNDEC LOGO](/gndec_image.png)
  
  # PROGRAMMING FOR PROBLEM SOLVING ESC -18105
- _____________________________________________
+ 
+ ## My Programs
 |                         |    |
 | --------------------   | --------------  |
 | Submitted by           | JANAV MAKKAR    |
