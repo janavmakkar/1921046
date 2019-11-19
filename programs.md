@@ -2,15 +2,12 @@
  
  # PROGRAMMING FOR PROBLEM SOLVING ESC -18105
  _____________________________________________
-
-
-## Prepared,Coded **and** Submitted with Love and Bugs(was) by: JANAV MAKKAR 
-
-## Roll Number: 19210146 
-
-## Branch: IT(A2) 
-
-## Submitted to: Er. RANJODH KAUR 
+|                         |    |
+| --------------------   | --------------  |
+| Submitted by           | JANAV MAKKAR    |
+| Roll Number            | 1921046        |
+| Branch                 | IT(A2)          |
+| Submitted to           | Er. RANJODH KAUR| 
 ___________________________________
 
 
@@ -45,7 +42,7 @@ return 0;
 
 }
 ````
-
+______________________________________________
 
 
 
@@ -85,6 +82,7 @@ printf("your average is %f \n",g);
 }
 
 ````
+____
 ## 3. Program to Check whether a Number is Even or Odd 
 ````
 #include<stdio.h>
@@ -109,6 +107,7 @@ else
 
 }
 ````
+_________
 
 ## 4. Program to Print a Triangular Star Table
 
@@ -158,6 +157,7 @@ return 0;
 
 }
 ````
+___________
 ## 5.Temperature Convertor Celsius to Fahrenheit and Vice-Versa
 
   ````#include<stdio.h>
@@ -206,7 +206,7 @@ return 0;
 
 }
 ````
-
+__________
 ## 6. Program to Display the table of an Input Number 
 
    ````#include<stdio.h>
@@ -231,6 +231,7 @@ printf("%dx%d=%d \n",a,i,a*i);
 
 }
 ````
+_________
 
 ## 7.Find the Sum of Digits of a Number
 
@@ -270,6 +271,7 @@ c=c/10;
 
 return sum;}
 ````
+____________
 
 ## 8. Program to Compare two numbers
 
@@ -305,6 +307,7 @@ else { printf("The greater number is: %d\n", j); }
 
 }
 ````
+___________
 
 ## 9.To print College address
 ````
@@ -319,6 +322,7 @@ printf("\n\t\t\tLudhiana , Punjab\n\n");
 return 0;
 }
 ````
+_________
 
 ## 10. Program to Find the Factorial of a Number with Recursion
 ````
@@ -340,6 +344,8 @@ long int multiplyNumbers(int n)
         return 1;
 }
 ````
+
+___________
 
 ## 11. Program to check if a number is PRIME or NOT
 ````
@@ -369,6 +375,7 @@ int main()
     return 0;
 }
 ````
+___________
 
 ## 12. Program for MATRIX multiplication
 ````
@@ -419,6 +426,7 @@ printf("\n");
 return 0;
 }
 ````
+_____________
 
 ## 13. CALCULATOR
 ````
@@ -450,6 +458,8 @@ scanf("%d\n %d",&a,&b);
 }
 }
 ````
+________________________
+
 ## 14. Program to Find the Total Experience of Employees
 ````
 #include<stdio.h>
@@ -467,6 +477,7 @@ int a,b;
      printf("Total experience:%d",c);
 }
 ````
+____________
 
 ## 15. To find Area and Volume of Rectangle/Box
 ````
@@ -485,6 +496,8 @@ int main()
  return 0;
  }
  ````
+ 
+ _________
 
    ## 16. Program to Find if a Number is an Even number or not
    ````
@@ -506,6 +519,8 @@ for(i=0;i<10;i++)
 }
 }
 ````
+___________
+
 ## 17 Program to Find the Greatest Number of All
 
 
@@ -525,6 +540,7 @@ int arr[10];
        printf("%d is greater\n",arr[0]);
 }
 ````
+____________
 
 ## 18. Addition Of Two Numbers
 ````
@@ -540,6 +556,7 @@ int addTwo=a+b;
      printf("Sum:%d+%d=%d",a,b,addTwo);
 }
 ````
+__________
 
 ## 19. Program to Find Area, Perimeter and Volume of a Square
    ````
@@ -562,6 +579,8 @@ void square()
 }
 
 ````
+_______________
+
 ## 20. Program to Display a Table at Even Positions within a Range of a Given Number
 
 ````
@@ -584,3 +603,11 @@ printf("\n");
 }}
 }
 ````
+______________
+
+
+
+
+
+I am very greatful for all the useful lessons my teachers/professor taught us and  carfully guided us to begin with our journey  to code exceptionally
+
