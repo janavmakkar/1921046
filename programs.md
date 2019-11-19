@@ -7,7 +7,7 @@
 | --------------------   | --------------  |
 | Submitted by           | JANAV MAKKAR    |
 | Roll Number            | 1921046        |
-| Branch                 | IT(A2)          |
+| Branch                 | ITA2          |
 | Submitted to           | Er. RANJODH KAUR| 
 ___________________________________
 
