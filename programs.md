@@ -8,7 +8,7 @@ BRANCH: ** IT(A2) **
 
 SUBMITTED TO:** Er. RANJODH KAUR **
 
- **1. Fizz buzz game **
+ ** 1. Fizz buzz game **
 
   
 ````
