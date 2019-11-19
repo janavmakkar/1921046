@@ -15,7 +15,7 @@ ___________________________________
 
 
 
-### 1. FizzBuzz game 
+## 1. FizzBuzz game 
 
   
 ````
@@ -610,5 +610,5 @@ ______________
 
 
 
-I am very greatful for all the useful lessons my teachers/professor taught us and  carfully guided us to begin with our journey  to code exceptionally
+I am very greatful for all the useful lessons my teachers/professor taught me and  carfully guided me to begin with my journey  to code exceptionally
 
