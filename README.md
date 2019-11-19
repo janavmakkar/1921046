@@ -11,7 +11,29 @@
 | Submitted to           | Er. RANJODH KAUR| 
 ___________________________________
 
-
+|   S.No    | Program Name   |
+| ----- | --------------  |
+| 1 |   FizzBuzz game |
+| 2 |   Program to Find Average of 5 Number |
+| 3 |   Program to Check whether a Number is Even or Odd | 
+| 4 |   Program to Print a Triangular Star Table |
+| 5 |   Temperature Convertor Celsius to Fahrenheit and Vice-Versa|
+| 6 |   Program to Display the table of an Input Number |
+| 7 |   Find the Sum of Digits of a Number |
+| 8 |   Program to Compare two Numbers |
+| 9 |   To Print College Address      |
+| 10|   Program to Find the Factorial of a Number with Recursion |
+| 11|   Program to Check if a Number is PRIME or NOT|
+| 12|   Program for Matrix Multiplication|
+| 13|   CALCULATOR|
+| 14|   Program to Find the Total Experience of Employees |
+| 15|   To find Area and Volume of Rectangle/Box |
+| 16|   Program to Find if a Number is an Even number or not |
+| 17|   Program to Find the Greatest Number of All |
+| 18|   Addition Of Two Numbers |
+| 19|   Program to Find Area, Perimeter and Volume of a Square/Box |
+| 20|   Program to Display a Table at Even Positions within a Range of a Given Number |
+___________________________________
 
 
 
@@ -559,7 +581,7 @@ int addTwo=a+b;
 ````
 __________
 
-## 19. Program to Find Area, Perimeter and Volume of a Square
+## 19. Program to Find Area, Perimeter and Volume of a Square/Box
    ````
     #include<stdio.h>
 void square();
