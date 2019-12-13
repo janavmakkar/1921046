@@ -18,7 +18,7 @@ ___________________________________
 | 3 |   Even or Odd Checker | 
 | 4 |   Triangular Star Table |
 | 5 |   Celsius-Farenhiet Convertor |
-| 6 |   table of an Number upto range |
+| 6 |   Table of an Number upto range |
 | 7 |   Sum of Digits of a Number |
 | 8 |   Compare two Numbers |
 | 9 |   Print College Address      |
@@ -26,12 +26,12 @@ ___________________________________
 | 11|   Prime Checker |
 | 12|   Matrix Multiplication|
 | 13|   Calculator|
-| 14|   Total Experience of Employees |
+| 14|   To Segregate Even and Odd Values of an Array and Store them in 2 Different Arrays |
 | 15|   Sum of Odd or Even Numbers |
 | 16|   Even-Odd checker of Number |
 | 17|   Find the Greatest Number of All |
-| 18|   Addition Of Two Numbers |
-| 19|   Program to Find Area, Perimeter and Volume of a Square/Box |
+| 18|   Matrix Addition |
+| 19|   Fibonacci Series |
 | 20|   Program to Display a Table at Even Positions within a Range of a Given Number |
 ___________________________________
 
@@ -387,9 +387,13 @@ ___________
 #include <stdio.h>
 int main()
 {
-    int n, i, f = 0;                                                                                        printf("Enter a positive integer: ");
-    scanf("%d", &n);                                                                                        for(i = 1;i<= n; i++)                                                                                   {
-      if(n%i ==0){ f++; }                                                                                     }
+    int n, i, f = 0;
+    printf("Enter a positive integer: ");
+    scanf("%d", &n);                                                                                        
+    for(i = 1;i<= n; i++)
+    {
+      if(n%i ==0){ f++; }                                                                                     
+     }
 
      if(f == 2)
        printf("%d is a prime number.\n", n);
@@ -490,24 +494,65 @@ scanf("%d\n %d",&a,&b);
 ![](calculator.png)
 ________________________
 
-## 14. Total Experience of Employees
+## 14. To Segregate Even and Odd Values of an Array and Store them in 2 Different Arrays 
 ````
 #include<stdio.h>
-int main()
-{
-int c;
-int a,b;
-     printf("Enter no. of employees:");
-     scanf("%d",&a);
-     printf("Enter their experience:");
-  for(int i=1;i<=a;i++){
-     scanf("%d",&b);
-  c+=b;
-}
-     printf("Total experience:%d",c);
+int main(){
+
+ int n,i,j=0,k=0;
+
+ printf("enter number of elements ");
+ scanf("%d",&n);
+
+printf("enter the elements of the array ");
+
+ printf("\n");
+
+ int a[n],e[n],o[n];
+ for( i=0;i<n;i++)
+ {
+  scanf("%d",&a[i]);
+ }
+
+ for(i=0;i<n;i++)
+ {
+
+ if(a[i]%2==0)
+  {
+   e[j]=a[i];
+   j++;
+  }
+
+  else
+  {
+   o[k]=a[i];
+   k++;
+   }
+
+ }
+
+ printf("Elements in the even array:\n");
+
+ for(i=0;i<j;i++)
+ {
+  printf(" %d ",e[i]);
+  }
+
+ printf("\n");
+
+ printf(" Elements in the odd array:\n");
+ 
+ for(i=0;i<k;i++)
+ {
+   printf(" %d ",o[i]);
+  }
+
+ printf("\n");
+
+return 0;    
 }
 ````
-![]()
+![](EOarray.png)
 ____________
 
 ## 15. Sum of Odd or Even Numbers
