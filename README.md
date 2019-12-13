@@ -13,7 +13,7 @@ ___________________________________
 
 |   S.No    | Program Name   |
 | ----- | --------------  |
-| 1 |   FizzBuzz game |
+| 1 |  😀 FizzBuzz game |
 | 2 |   Program to Find Average of 5 Number |
 | 3 |   Program to Check whether a Number is Even or Odd | 
 | 4 |   Program to Print a Triangular Star Table |
@@ -25,9 +25,9 @@ ___________________________________
 | 10|   Program to Find the Factorial of a Number with Recursion |
 | 11|   Program to Check if a Number is PRIME or NOT|
 | 12|   Program for Matrix Multiplication|
-| 13|   CALCULATOR|
+| 13|   Calculator|
 | 14|   Program to Find the Total Experience of Employees |
-| 15|   To find Area and Volume of Rectangle/Box |
+| 15|   To find Sum of Odd or Even Numbers |
 | 16|   Program to Find if a Number is an Even number or not |
 | 17|   Program to Find the Greatest Number of All |
 | 18|   Addition Of Two Numbers |
@@ -346,9 +346,9 @@ __________
 #include<stdio.h>
 int main() {
 
-printf("\n\t\t\tGuru Nanak Dev Engineering College,");
-printf("\n\t\t\tGill Road,");
-printf("\n\t\t\tLudhiana , Punjab\n\n");
+puts("Guru Nanak Dev Engineering College");
+puts("Gill Road,");
+puts("Ludhiana , Punjab");
 
 return 0;
 }
@@ -359,19 +359,22 @@ _________
 ## 10. Program to Find the Factorial of a Number with Recursion
 ````
 #include<stdio.h>
-long int multiplyNumbers(int n);
+
+int fact(int n);
+
 int main() {
     
 int n;
-    printf("Enter a positive integer: ");
+
+printf("Enter an  integer: ");
     scanf("%d", &n);
-    printf("Factorial of %d = %ld\n", n, multiplyNumbers(n));
+    printf("Factorial of %d = %d\n", n, fact(n));
     return 0;
 }
-long int multiplyNumbers(int n)
+int fact(int n)
 {
     if (n >= 1)
-        return n*multiplyNumbers(n-1);
+        return n*fact(n-1);
     else
         return 1;
 }
@@ -384,28 +387,20 @@ ___________
 #include <stdio.h>
 int main()
 {
-    int n, i, flag = 0;
-    printf("Enter a positive integer: ");
-    scanf("%d", &n);
-    for(i = 2; i < n; i++)
-    {
-        if(n%i == 0)
-        {
-            flag = 1;
-       }
-    }
- if (n == 1)    {
-      printf("1 is neither a prime nor a composite number.");
-    }
-    else
-    {
-        if (flag == 0)
-          printf("%d is a prime number.", n);
-        else
-          printf("%d is not a prime number.", n);
-    }
+    int n, i, f = 0;                                                                                        printf("Enter a positive integer: ");
+    scanf("%d", &n);                                                                                        for(i = 1;i<= n; i++)                                                                                   {
+      if(n%i ==0){ f++; }                                                                                     }
+
+     if(f == 2)
+       printf("%d is a prime number.\n", n);
+
+     else
+       printf("%d is not a prime number.\n", n);
+
+
     return 0;
 }
+
 ````
 ![]()
 ___________
@@ -462,7 +457,7 @@ return 0;
 ![]()
 _____________
 
-## 13. CALCULATOR
+## 13. Calculator
 ````
 #include<stdio.h>
 int main()
@@ -515,26 +510,50 @@ int a,b;
 ![]()
 ____________
 
-## 15. To find Area and Volume of Rectangle/Box
+## 15. To find Sum of Odd or Even Numbers
 ````
 #include<stdio.h>
+
+// a program to find the sum of all odd numbers upto a number declared by the user
+//son= sum of odd numbers
+
 int main()
 {
- int l,b,h;
-   printf("Enter length of rectangle:");
-   scanf("%d",&l);
-   printf("\nEnter breadth of rectangle:");
-   scanf("%d",&b);
-   printf("\nEnter height of rectangle:");
-   scanf("%d",&h);
-   printf("\nThe area of rectangle is:%d",l*b);
-   printf("\nThe volume is :%d\n",l*b*h);
- return 0;
- }
- ````
+ int a,b,c,d,e,g,f;
+
+ printf("Enter \n1 if you want to find the the sum of odd numbers \n2 if you want o find the sum even n$
+ scanf("%d",&d);
+
+switch(d)
+{
+ case 1 : printf("upto what number you would like to find the sum of odd numbers: ");
+          scanf("%d",&b);
+
+          for(a=1;a<=b;a++){
+             if(a%2!=0)
+             c = c+a ;        }
+          printf("\n");
+          printf ("%d\n",c);
+     break;
+
+ case 2 : printf("upto what number you would like to find the sum even numbers: ");
+          scanf("%d",e);
+
+          for(f=1;f<=e;f++){
+             if(f%2==0)
+             g=g+f;         }
+          printf("\n");
+          printf("%d\n",g);
+      break;
+
+
+return 0;
+
+}
+}
  ![]()
  _________
-
+ ````
    ## 16. Program to Find if a Number is an Even number or not
    ````
    #include<stdio.h>
