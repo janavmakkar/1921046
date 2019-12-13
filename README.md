@@ -65,6 +65,7 @@ return 0;
 
 }
 ````
+![FizzBuzz](FizzBuzz.png)
 ______________________________________________
 
 
@@ -105,6 +106,7 @@ printf("your average is %f \n",g);
 }
 
 ````
+![avgOfFive](averageOfFive.png)
 ____
 ## 3. Program to Check whether a Number is Even or Odd 
 ````
@@ -180,6 +182,7 @@ return 0;
 
 }
 ````
+![starTable](star.pic.png)
 ___________
 ## 5.Temperature Convertor Celsius to Fahrenheit and Vice-Versa
 
