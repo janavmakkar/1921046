@@ -5,10 +5,11 @@
  ## My Programs
 |                         |                |
 | --------------------   | --------------  |
-| Submitted by           | JANAV MAKKAR    |
-| Roll Number            | 1921046         |
+| Submitted by           | Janav Makkar    |
+| College Roll Number            | 1921046         |
+| University Roll No.| 1905342|
 | Branch                 | ITA2            |
-| Submitted to           | Er. RANJODH KAUR| 
+| Submitted to           | Er. Ranjodh Kaur| 
 ___________________________________
 
 |   S.No    | Program Name   |
@@ -348,7 +349,7 @@ else { printf("The greater number is: %d\n", j); }
 ![](NumberCompare.png)
 __________
 
-## 9. print College address
+## 9. Print College Address
 ````
  
 #include<stdio.h>
