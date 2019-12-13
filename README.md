@@ -353,7 +353,7 @@ puts("Ludhiana , Punjab");
 return 0;
 }
 ````
-![]()
+![](PrintAddress.png)
 _________
 
 ## 10. Factorial of a Number 
@@ -379,7 +379,7 @@ int fact(int n)
         return 1;
 }
 ````
-![]()
+![](factorial.png)
 ___________
 
 ## 11. Prime Checker
@@ -402,7 +402,7 @@ int main()
 }
 
 ````
-![]()
+![](PrimeChecker.png)
 ___________
 
 ## 12.  Matrix multiplication
@@ -487,7 +487,7 @@ scanf("%d\n %d",&a,&b);
 }
 }
 ````
-![]()
+![](calculator.png)
 ________________________
 
 ## 14. Total Experience of Employees
