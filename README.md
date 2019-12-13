@@ -424,54 +424,85 @@ ___________
 ## 12.  Matrix multiplication
 ````
 #include<stdio.h>
-int main(){
-int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;
-printf("enter the number of row=");
-scanf("%d",&r);
-printf("enter the number of column=");
-scanf("%d",&c);
-printf("enter the first matrix element=\n");
-for(i=0;i<r;i++)
-{
-for(j=0;j<c;j++)
-{
-scanf("%d",&a[i][j]);
-}
-}
-printf("enter the second matrix element=\n");
-for(i=0;i<r;i++)
-{
-for(j=0;j<c;j++)
-{
-scanf("%d",&b[i][j]);
-}
-}
 
-printf("multiply of the matrix=\n");
-for(i=0;i<r;i++)
+int main(){
+
+int sum=0,m,n,p,q;
+
+printf("enter number of rows and coloumns of matrix A:\n");
+scanf("%d %d",&m,&n);
+
+printf("enter number of rows and coloumns of matrix B\n");
+scanf("%d %d",&p,&q);
+
+
+if(n==p)
 {
-for(j=0;j<c;j++)
+int A[m][n],B[p][q],C[m][q],i,j,k,l;
+
+// MATRIX A
+
+printf("Enter values of matrix A\n");
+for( i=1;i<=m;i++)
 {
-mul[i][j]=0;
-for(k=0;k<c;k++)
+ for( j=1;j<=n;j++)
+ {
+   printf("A[%d][%d]",i,j);
+   scanf("%d",&A[i][j]);
+   }
+ }
+ 
+ // MATRIX B
+
+printf("Enter values of matrix B\n");
+for(k=1;k<=p;k++)
 {
-mul[i][j]+=a[i][k]*b[k][j];
-}
-}
-}
-for(i=0;i<r;i++)
-{
-for(j=0;j<c;j++)
-{
-printf("%d\t",mul[i][j]);
-}
-printf("\n");
-}
-return 0;
-}
+ for(l=1;l<=q;l++)
+ {
+  printf("B[%d][%d]",k,l);
+  scanf("%d",&B[k][l]);
+   }
+  }
+
+ //LOGIC
+
+int a,b,c;
+ for(a=1;a<=m;a++)
+ {
+  for(b=1;b<=q;b++)
+  {
+   for(c=1;c<=p;c++)
+   {
+    sum=sum+A[a][c]*B[c][b];}
+    C[a][b]=sum;
+    sum=0;
+    }
+   }
+   
+//OUTPUT
+
+ printf("Product of matrices is:\n");
+
+ for(int a=1;a<=m;a++)
+ {
+  for(int b=1;b<=q;b++)
+  {
+   printf("%d\t",C[a][b]);
+   if(b==q)
+   printf("\n");
+   }
+  }
+
+ }
+
+ else
+ printf("for multiplication R of matrix-A and C of matrix-B must be equal");
+
+ return 0;
+ }
 ````
 ##### OUTPUT:-
-![]()
+![](matrixMultiplication.png)
 _____________
 
 ## 13. Calculator
