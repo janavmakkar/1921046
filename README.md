@@ -28,8 +28,8 @@ ___________________________________
 | 13|   Calculator|
 | 14|   To Segregate Even and Odd Values of an Array and Store them in 2 Different Arrays |
 | 15|   Sum of Odd or Even Numbers |
-| 16|   Even-Odd checker of Number |
-| 17|   Find the Greatest Number of All |
+| 16|   Find the Largest Element in an array |
+| 17|   Sorting an Array in Ascending Order Using Bubble Sort |
 | 18|   Matrix Addition |
 | 19|   Fibonacci Series |
 | 20|   Program to Display a Table at Even Positions within a Range of a Given Number |
@@ -600,49 +600,73 @@ return 0;
  ![](SumOfEvenOrOddNumbers.png)
   _________
  
-   ## 16. Even-Odd checker of Number
+   ## 16. Find the Largest Element in an array
    ````
-   #include<stdio.h>
+  #include <stdio.h>
+
 int main()
 {
-int arr[10];
-int i;
-for(i=0;i<10;i++){
-        printf("Enter value of arr[%d]:",i);
-        scanf("%d",&arr[i]);
-           }
+    int i, n;
+    int arr[20];
+    printf("Enter the number of elements : ");
+    scanf("%d", &n);
+    for (i = 0; i < n; ++i)
+       {
+        printf("Enter element number %d: ",i+1);
+        scanf("%d", &arr[i]);
+        }
 
-for(i=0;i<10;i++)
-        {
-       if(arr[i]%2==0){
-               printf("\n%d is even.\n",arr[i]);
-                     }
-}
+    // storing the largest number to arr[0]
+
+    for(i=1;i<n;i++)
+      { if(arr[0]<arr[i])
+        { arr[0] = arr[i];
+          }
+        }
+    printf("Largest element = %d\n ", arr[0]);
+    return 0;
 }
 ````
-![]()
+![](LargestElementWithinArray.png)
 ___________
 
-## 17 Find the Greatest Number of All
+## 17 Sorting an Array in Ascending Order Using Bubble Sort 
 
 
 ````
+
 #include<stdio.h>
+
 int main()
 {
-int a;
-int arr[10];
-   for(a=0;a<10;a++){
-      printf("Enter array elements arr[%d]",a);
-      scanf("%d",&arr[a]);
-}
-   for(a=0;a<arr[a];++a){
-     if(arr[0]<arr[a])
-       arr[0]=arr[a];}
-       printf("%d is greater\n",arr[0]);
+    int arr[50], i, j, n, temp;
+    printf("Enter total number of elements to store: ");
+    scanf("%d", &n);
+    printf("Enter %d elements:", n);
+    for(i=0; i<n; i++)
+        scanf("%d", &arr[i]);
+    printf("\nSorting array using bubble sort technique...\n");
+    for(i=0; i<(n-1); i++)
+    {
+        for(j=0; j<(n-i-1); j++)
+        {
+            if(arr[j]>arr[j+1])
+            {
+                temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+        }
+    }
+    printf("All Array elements sorted successfully!\n");
+    printf("Array elements in ascending order:\n\n");
+    for(i=0; i<n; i++)
+        printf("%d ", arr[i]);
+
+    return 0;
 }
 ````
-![]()
+![](BubbleSort.png)
 ____________
 
 ## 18. Matrix Addition
