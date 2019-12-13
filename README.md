@@ -65,6 +65,7 @@ return 0;
 
 }
 ````
+##### OUTPUT:-
 ![FizzBuzz](FizzBuzz.png)
 ______________________________________________
 
@@ -106,6 +107,7 @@ printf("your average is %f \n",g);
 }
 
 ````
+##### OUTPUT:-
 ![avgOfFive](averageOfFive.png)
 ____
 ## 3. Even or Odd Checker
@@ -132,6 +134,7 @@ else
 
 }
 ````
+##### OUTPUT:-
 ![](EvenOddChecker.png)
 _________
 
@@ -183,6 +186,7 @@ return 0;
 
 }
 ````
+##### OUTPUT:-
 ![](StarTable.png)
 ___________
 ## 5. Celsius-Farenhiet Convertor
@@ -233,6 +237,7 @@ return 0;
 
 }
 ````
+##### OUTPUT:-
 ![](temp.png)
 __________
 ## 6. Table of an Number upto range
@@ -259,6 +264,7 @@ printf("%dx%d=%d \n",a,i,a*i);
 
 }
 ````
+##### OUTPUT:-
 ![](Table.png)
 _________
 
@@ -300,6 +306,7 @@ c=c/10;
 
 return sum;}
 ````
+##### OUTPUT:-
 ![](SumOfDigitsOfNumber.png)
 ____________
 
@@ -337,6 +344,7 @@ else { printf("The greater number is: %d\n", j); }
 
 }
 ````
+##### OUTPUT:-
 ![](NumberCompare.png)
 __________
 
@@ -353,6 +361,7 @@ puts("Ludhiana , Punjab");
 return 0;
 }
 ````
+##### OUTPUT:-
 ![](PrintAddress.png)
 _________
 
@@ -379,6 +388,7 @@ int fact(int n)
         return 1;
 }
 ````
+##### OUTPUT:-
 ![](factorial.png)
 ___________
 
@@ -406,6 +416,7 @@ int main()
 }
 
 ````
+##### OUTPUT:-
 ![](PrimeChecker.png)
 ___________
 
@@ -458,6 +469,7 @@ printf("\n");
 return 0;
 }
 ````
+##### OUTPUT:-
 ![]()
 _____________
 
@@ -491,6 +503,7 @@ scanf("%d\n %d",&a,&b);
 }
 }
 ````
+##### OUTPUT:-
 ![](calculator.png)
 ________________________
 
@@ -552,6 +565,7 @@ printf("enter the elements of the array ");
 return 0;    
 }
 ````
+##### OUTPUT:-
 ![](EOarray.png)
 ____________
 
@@ -597,6 +611,7 @@ return 0;
  ![](SumOfEvenOrOddNumbers.png)
  
  ````
+ ##### OUTPUT:-
  ![](SumOfEvenOrOddNumbers.png)
   _________
  
@@ -627,6 +642,7 @@ int main()
     return 0;
 }
 ````
+##### OUTPUT:-
 ![](LargestElementWithinArray.png)
 ___________
 
@@ -666,6 +682,7 @@ int main()
     return 0;
 }
 ````
+##### OUTPUT:-
 ![](BubbleSort.png)
 ____________
 
@@ -704,6 +721,7 @@ int main()
    return 0;
 }
 ````
+##### OUTPUT:-
 ![](MatrixAddition.png)
 __________
 
@@ -732,6 +750,7 @@ else if(n>1){return fib(n-1)+fib(n-2);}
 }
 
 ````
+##### OUTPUT:-
 ![](Fibonacci.png)
 _______________
 
@@ -757,6 +776,7 @@ printf("\n");
 }}
 }
 ````
+##### OUTPUT:-
 ![]()
 ______________
 
@@ -764,5 +784,5 @@ ______________
 
 
 
-I am very greatful for all the useful lessons my teachers/professor taught me and  carfully guided me to begin with my journey  to code exceptionally
+I am very greatful for all the useful lessons my teachers/professor taught me and  carfully guided me to begin with my journey  to code exceptionally🙏
 
