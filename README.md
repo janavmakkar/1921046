@@ -108,7 +108,7 @@ printf("your average is %f \n",g);
 ````
 ![avgOfFive](averageOfFive.png)
 ____
-## 3. Program to Check whether a Number is Even or Odd 
+## 3. Even or Odd Checker
 ````
 #include<stdio.h>
 
@@ -135,7 +135,7 @@ else
 ![](EvenOddChecker.png)
 _________
 
-## 4. Program to Print a Triangular Star Table
+## 4. Triangular Star Table
 
    ````#include<stdio.h>
 
@@ -185,7 +185,7 @@ return 0;
 ````
 ![](StarTable.png)
 ___________
-## 5.Temperature Convertor Celsius to Fahrenheit and Vice-Versa
+## 5. Celsius-Farenhiet Convertor
 
   ````#include<stdio.h>
 
@@ -235,7 +235,7 @@ return 0;
 ````
 ![](temp.png)
 __________
-## 6. Program to Display the table of an Input Number 
+## 6. Table of an Number upto range
 
    ````#include<stdio.h>
 
@@ -262,7 +262,7 @@ printf("%dx%d=%d \n",a,i,a*i);
 ![](Table.png)
 _________
 
-## 7.Find the Sum of Digits of a Number
+## 7. Sum of Digits of a Number
 
    ````#include<stdio.h>
 
@@ -303,7 +303,7 @@ return sum;}
 ![](SumOfDigitsOfNumber.png)
 ____________
 
-## 8. Program to Compare two numbers
+## 8. Compare two numbers
 
   ````
   #include<stdio.h
@@ -340,7 +340,7 @@ else { printf("The greater number is: %d\n", j); }
 ![](NumberCompare.png)
 __________
 
-## 9.To print College address
+## 9. print College address
 ````
  
 #include<stdio.h>
@@ -356,7 +356,7 @@ return 0;
 ![]()
 _________
 
-## 10. Program to Find the Factorial of a Number with Recursion
+## 10. Factorial of a Number 
 ````
 #include<stdio.h>
 
@@ -382,7 +382,7 @@ int fact(int n)
 ![]()
 ___________
 
-## 11. Program to check if a number is PRIME or NOT
+## 11. Prime Checker
 ````
 #include <stdio.h>
 int main()
@@ -405,7 +405,7 @@ int main()
 ![]()
 ___________
 
-## 12. Program for MATRIX multiplication
+## 12.  Matrix multiplication
 ````
 #include<stdio.h>
 int main(){
@@ -490,7 +490,7 @@ scanf("%d\n %d",&a,&b);
 ![]()
 ________________________
 
-## 14. Program to Find the Total Experience of Employees
+## 14. Total Experience of Employees
 ````
 #include<stdio.h>
 int main()
@@ -510,7 +510,7 @@ int a,b;
 ![]()
 ____________
 
-## 15. To find Sum of Odd or Even Numbers
+## 15. Sum of Odd or Even Numbers
 ````
 #include<stdio.h>
 
@@ -554,7 +554,7 @@ return 0;
  ![]()
  _________
  ````
-   ## 16. Program to Find if a Number is an Even number or not
+   ## 16. Even-Odd checker of Number
    ````
    #include<stdio.h>
 int main()
@@ -577,7 +577,7 @@ for(i=0;i<10;i++)
 ![]()
 ___________
 
-## 17 Program to Find the Greatest Number of All
+## 17 Find the Greatest Number of All
 
 
 ````
