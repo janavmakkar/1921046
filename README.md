@@ -537,7 +537,7 @@ switch(d)
      break;
 
  case 2 : printf("upto what number you would like to find the sum even numbers: ");
-          scanf("%d",e);
+          scanf("%d",&e);
 
           for(f=1;f<=e;f++){
              if(f%2==0)
@@ -546,14 +546,15 @@ switch(d)
           printf("%d\n",g);
       break;
 
-
+}
 return 0;
-
 }
-}
- ![]()
- _________
+ ![](SumOfEvenOrOddNumbers.png)
+ 
  ````
+ ![](SumOfEvenOrOddNumbers.png)
+  _________
+ 
    ## 16. Even-Odd checker of Number
    ````
    #include<stdio.h>
@@ -599,45 +600,70 @@ int arr[10];
 ![]()
 ____________
 
-## 18. Addition Of Two Numbers
+## 18. Matrix Addition
 ````
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-int a,b;
-     printf("Enter first no.:");
-     scanf("%d",&a);
-     printf("Enter second no.:");
-     scanf("%d",&b);
-int addTwo=a+b;
-     printf("Sum:%d+%d=%d",a,b,addTwo);
+   int m, n, c, d, first[10][10], second[10][10], sum[10][10];
+
+   printf("Enter the number of rows and columns of matrix\n");
+   scanf("%d%d", &m, &n);
+   printf("Enter the elements of first matrix\n");
+
+   for (c = 0; c < m; c++)
+      for (d = 0; d < n; d++)
+         scanf("%d", &first[c][d]);
+
+   printf("Enter the elements of second matrix\n");
+
+   for (c = 0; c < m; c++)
+      for (d = 0 ; d < n; d++)
+         scanf("%d", &second[c][d]);
+
+   printf("Sum of entered matrices:-\n");
+
+   for (c = 0; c < m; c++) {
+      for (d = 0 ; d < n; d++) {
+         sum[c][d] = first[c][d] + second[c][d];
+         printf("%d\t", sum[c][d]);
+      }
+      printf("\n");
+   }
+
+   return 0;
 }
 ````
-![]()
+![](MatrixAddition.png)
 __________
 
-## 19. Program to Find Area, Perimeter and Volume of a Square/Box
+## 19. Fibonacci Series
    ````
-    #include<stdio.h>
-void square();
-int main()
-{     
- square();
- return 0;
-}                                    
-void square()
-{
- int side;
-   printf("Enter the side of square:");
-   scanf("%d",&side);
+#include <stdio.h>
 
-   printf("\nPerimeter of square:%d",4*side);
-   printf("\nArea of square:%d",side*side);
-   printf("\nVolume of square:%d\n",side*side*side);
+int fib(int);
+
+int main()
+{
+  int i,n;                                                                                                                 
+  printf("Enter the number upto which you wish to print the fibonacci series: ");
+  scanf("%d", &n);
+
+  for(i=0;i<=n;i++)
+    printf("%d\t",fib(i));
+ printf("\n");
+  return 0;
+}
+
+int fib(int n)
+{
+if(n<=1){return 1;}
+else if(n>1){return fib(n-1)+fib(n-2);}
 }
 
 ````
-![]()
+![](Fibonacci.png)
 _______________
 
 ## 20. Program to Display a Table at Even Positions within a Range of a Given Number
