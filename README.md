@@ -32,7 +32,7 @@ ___________________________________
 | 17|   Sorting an Array in Ascending Order Using Bubble Sort |
 | 18|   Matrix Addition |
 | 19|   Fibonacci Series |
-| 20|   Program to Display a Table at Even Positions within a Range of a Given Number |
+| 20|   Reverse a Number |
 ___________________________________
 
 
@@ -754,30 +754,31 @@ else if(n>1){return fib(n-1)+fib(n-2);}
 ![](Fibonacci.png)
 _______________
 
-## 20. Program to Display a Table at Even Positions within a Range of a Given Number
+## 20. Reverse a Number
 
 ````
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-int a,b,c,d,e;
-printf("enter start range:");
-scanf("%d",&a);
-printf("enter end range:");
-scanf("%d",&b);
-printf("enter last multiply:");
-scanf("%d",&c);
-for(d=a;d<=b;d++){
-if(d%2==0){
-for(e=1;e<=c;e++){
-printf("%d*%d=%d\n",d,e,(d*e));
-}
-printf("\n");
-}}
+  int n, r = 0;
+
+  printf("Enter a number to reverse\n");
+  scanf("%d", &n);
+
+  while (n != 0)
+  {
+    r = r * 10;
+    r = r + n%10;
+    n = n/10;
+  }
+
+  printf("Reverse of the number = %d\n", r);
+
+  return 0;
 }
 ````
 ##### OUTPUT:-
-![]()
+![](ReverseNum.png)
 ______________
 
 
