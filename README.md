@@ -5,11 +5,11 @@
  ## My Programs
 |                         |                |
 | --------------------   | --------------  |
-| Submitted by           | Janav Makkar    |
-| College Roll Number            | 1921046         |
-| University Roll No.| 1905342|
-| Branch                 | ITA2            |
-| Submitted to           | Er. Ranjodh Kaur| 
+| 📌 Submitted by           | Janav Makkar    |
+| 📌 College Roll Number            | 1921046         |
+| 📌 University Roll No.| 1905342|
+| 📌 Branch                 | ITA2            |
+| 📌 Submitted to           | Er. Ranjodh Kaur| 
 ___________________________________
 
 |   S.No    | Program Name   |
@@ -41,7 +41,6 @@ ___________________________________
 
 ## 1. FizzBuzz game 
 
-  
 ````
   #include<stdio.h>
 
