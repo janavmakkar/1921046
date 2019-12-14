@@ -34,6 +34,7 @@ ___________________________________
 | 18|   Matrix Addition |
 | 19|   Fibonacci Series |
 | 20|   Reverse a Number |
+|21 |   Schematics of a calculator|
 ___________________________________
 
 
@@ -425,84 +426,84 @@ ___________
 ````
 #include<stdio.h>
 
-int main(){
-
-int sum=0,m,n,p,q;
-
-printf("enter number of rows and coloumns of matrix A:\n");
-scanf("%d %d",&m,&n);
-
-printf("enter number of rows and coloumns of matrix B\n");
-scanf("%d %d",&p,&q);
-
-
-if(n==p)
+int main()
 {
-int A[m][n],B[p][q],C[m][q],i,j,k,l;
 
-// MATRIX A
+// 1 - declaration  and size of matrices
 
-printf("Enter values of matrix A\n");
-for( i=1;i<=m;i++)
-{
- for( j=1;j<=n;j++)
- {
-   printf("A[%d][%d]",i,j);
-   scanf("%d",&A[i][j]);
-   }
- }
- 
- // MATRIX B
+int r1,c1,c2,i,j,k;
+int A[15][15];
+int B[15][15];
+int C[15][15];
 
-printf("Enter values of matrix B\n");
-for(k=1;k<=p;k++)
-{
- for(l=1;l<=q;l++)
- {
-  printf("B[%d][%d]",k,l);
-  scanf("%d",&B[k][l]);
-   }
-  }
+printf("For matrix-A no. of rows: ");
+scanf("%d",&r1);
+
+printf("\n");
+
+printf("For matrix-A no. of coloumns and for matrix-B no. of rows: ");
+scanf("%d",&c1);
+
+printf("\n");
+
+printf("For matrix-B no. of coloumns: ");
+scanf("%d",&c2);
+
+printf("----------------------------------------------------------------");
+printf("\n");
+
+// input and initialization of matrices
+ for(i=0;i<r1;i++)
+  {for(j=0;j<c1;j++)
+    {printf("Enter value A[%d][%d]",i+1,j+1);
+      scanf("%d",&A[i][j]);
+      }
+    }
+
+printf("\n");
+ for(i=0;i<c1;i++)
+  {for(j=0;j<c2;j++)
+    {printf("Enter the value of B[%d][%d]",i+1,j+1);
+       scanf("%d",&B[i][j]);
+      }
+    }
+    
+    printf("\n");
+printf("--------------------------------------$
 
  //LOGIC
 
-int a,b,c;
- for(a=1;a<=m;a++)
- {
-  for(b=1;b<=q;b++)
-  {
-   for(c=1;c<=p;c++)
-   {
-    sum=sum+A[a][c]*B[c][b];}
-    C[a][b]=sum;
-    sum=0;
-    }
+ int sum =0;
+for(i=0;i<r1;i++)
+{for(j=0;j<c2;j++)
+  {for(k=0;k<c1;k++)
+    { sum = A[i][k]*B[k][j] + sum  ;
+      }
+      C[i][j]=sum;
+       sum=0;
+     }
    }
-   
-//OUTPUT
 
- printf("Product of matrices is:\n");
+printf("\n");
+printf("--------------------------------------$
 
- for(int a=1;a<=m;a++)
- {
-  for(int b=1;b<=q;b++)
-  {
-   printf("%d\t",C[a][b]);
-   if(b==q)
-   printf("\n");
+//Output or Display
+
+printf("\n");
+
+for(i=0;i<r1;i++)
+{for(j=0;j<c2;j++)
+ { printf(" %d ",C[i][j]);
    }
-  }
-
+  printf("\n\n");
  }
 
- else
- printf("for multiplication R of matrix-A and C of matrix-B must be equal");
-
- return 0;
- }
+printf("\n");
+return 0;
+}
 ````
 ##### OUTPUT:-
-![](matrixMultiplication.png)
+![](matmlt_Janav.png)
 _____________
 
 ## 13. Calculator
@@ -813,9 +814,33 @@ int main()
 ![](ReverseNum.png)
 ______________
 
+## 21. Schematics of a calculator
+
+```
+#include <stdio.h>
+int main()
+{
+puts("__________________");
+puts("|                |");
+puts("|________________|");
+puts("|  1 | 2 | 3 |   |");
+puts("|____|___|___|   |");
+puts("|  4 | 5 | 6 | + |");
+puts("|____|___|___|___|");
+puts("|  7 | 8 | 9 |   |");
+puts("|____|___|___| = |");
+puts("|  - | * | / |   |");
+puts("|____|___|___|___|");
+return 0;
+}
+```
+### OUTPUT:-
+![](CalculatorSchematics.png)
 
 
 
 
-I am very greatful for all the useful lessons my teachers/professor taught me and  carfully guided me to begin with my journey  to code exceptionally🙏
+
+____________
+### Thankyou 🙏
 
