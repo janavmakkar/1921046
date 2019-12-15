@@ -610,8 +610,8 @@ ____________
 
 int main()
 {
- int a,b,c,d,e,g,f;
-
+ int a,b,d,e,f;
+ int c=0,g=0;
  printf("Enter \n1 if you want to find the the sum of odd numbers \n2 if you want o find the sum even n$
  scanf("%d",&d);
 
@@ -640,8 +640,6 @@ switch(d)
 }
 return 0;
 }
- ![](SumOfEvenOrOddNumbers.png)
- 
  ````
  ##### OUTPUT:-
  ![](SumOfEvenOrOddNumbers.png)
